@@ -4,7 +4,7 @@ function firstChar(str) {
   }
   
   if(str === ""){
-    return `${''}`;
+    return `${""}`; 
   }
   
   let str1 = str.trim();

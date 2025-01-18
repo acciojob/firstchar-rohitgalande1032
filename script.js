@@ -1,11 +1,5 @@
 function firstChar(str) {
-  if(str === " "){
-    return `${" "}`;
-  }
   
-  if(str === ""){
-    return `${""}`; 
-  }
   
   let str1 = str.trim();
   return str1[0]
